@@ -1,12 +1,240 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+    <title>Harold Ye's Site</title>
+    <link rel="icon" type="image/x-icon" href="./img/flag3.jpg">
 </head>
 <body>
-
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+<div id="main">
+    <div id="photoDiv">
+        <div id="barDiv">
+            <div id="logoDiv">
+                <img id="logoImg" src="./img/flag3.jpg"/>
+                <p id="siteNoteP">Harold Ye's Site</p>
+            </div>
+        </div>
+        <div id="welcomeTextDiv">
+            <p class="welcomeText">
+                Hello, I am Harold Ye!
+            </p>
+            <p class="welcomeText">
+                你好，我是Harold！
+            </p>
+            <div id="welcomeTextDivSub1">
+                <button class="welcomeButton">Resume</button>
+                <button class="welcomeButton">LinkedIn</button>
+                <button class="welcomeButton">GitHub</button>
+            </div>
+        </div>
+    </div>
+    <div id="nextDiv">
+        <p class="headingsP">Introduction</p>
+        <div id="personalIntroDiv">
+            <img class="bioLogoImg" src="https://avatars.githubusercontent.com/u/68500948" />
+            <p id="bioP">
+                Hello! My name is Harold Ye. I am a full stack developer, CS & DS undergraduate, and a Dell intern. I am now a senior at UW-Madison (a great university!). I can do databases, backends, frontends, data science, and machine learning.
+            </p>
+        </div>
+        <p class="headingsP">Education</p>
+        <div id="personalIntroDiv2">
+            <div class="educationDiv">
+                <img class="schoolLogoImg" src="./img/uwn.svg.png" />
+                <div class="educationInnerDiv">
+                    <p class="universityP">University of Wisconsin - Madison</p>
+                    <p class="majorP">Major: Computer Science</p>
+                    <p class="gpaP">GPA: 4.0</p>
+                    <p class="timeP">Time: 2020-2023</p>
+                </div>
+            </div>
+            <div class="educationDiv">
+                <img class="schoolLogoImg" src="./img/uwn.svg.png" />
+                <div class="educationInnerDiv">
+                    <p class="universityP">University of Wisconsin - Madison</p>
+                    <p class="majorP">Major: Data Science</p>
+                    <p class="gpaP">GPA: 4.0</p>
+                    <p class="timeP">Time: 2020-2023</p>
+                </div>
+            </div>
+        </div>
+        <p class="headingsP">Skills</p>
+        <div id="personalIntroDiv3">
+        </div>
+    </div>
+        
+</div>
 
 </body>
+
+<style>
+    body {
+        padding: 0;
+        margin: 0;
+    }
+    #main {
+        display: block;
+    }
+    #photoDiv {
+        display:flex;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        height: 100vh;
+        background-size: cover;
+        position: relative;
+        background-attachment: fixed;
+        background-position: center 0;
+        background-repeat: no-repeat;
+        background-image: url("./img/DSC07440.jpg");
+        border-bottom: 2px solid #cccccc
+    }
+    #barDiv {
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+        flex-direction: row;
+        background: rgba(0, 0, 0, 0.25) ;
+        width: 100%;
+        height: 2.5rem;
+        color: #FFFFFF;
+        padding: 1rem;
+        position: fixed;
+        top: 0px;
+    }
+    #logoDiv {
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        flex-direction: row;
+        cursor: default;
+        margin-left: 1.25rem;
+    }
+    #logoImg {
+        display: block;
+        width: 50px;
+        max-width: 100%;
+    }
+    #siteNoteP {
+        font-size: 1.4rem;
+        font-weight: 300;
+        margin-inline-start: 0.86rem;
+    }
+    #welcomeTextDiv {
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .welcomeText {
+        font-size: 3.5rem;
+        color: #FFFFFF;
+        font-weight: 400;
+        margin: 0;
+        font-family: Consolas, Monaco;
+    }
+    .welcomeButton {
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.375rem;
+        font-weight: 550;
+        height: 2.5rem;
+        width: 5rem;
+        background: rgba(200, 245, 245, 0.35);
+        color: #FEFEFE;
+        border: 3px solid rgba(117, 166, 250, 0.4);
+        transition-duration: 0.75s; 
+        margin: 1.25rem;
+    }
+    .welcomeButton:hover {
+        background: rgba(255, 255, 255, 0.20);
+        border: 3px solid rgba(117, 166, 250, 0.1);
+        color: #EEEEEE;
+        transition-duration: 0.75s;
+        cursor: pointer;
+    }
+    #nextDiv {
+        display:flex;
+        align-items: center;
+        -webkit-box-pack: center;
+        height: 200vh;
+        background-size: cover;
+        position: relative;
+        background-attachment: fixed;
+        background-position: center 0;
+        background-repeat: no-repeat;
+        background-image: url("./img/DSC07440.jpg");
+        flex-direction: column;
+    }
+    .headingsP {
+        font-size: 2.75rem;
+        color: #fbfbfb;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #personalIntroDiv {
+        width: 65vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background: rgba(255, 255, 255, 0.76);
+        height: 12vh;
+        border-radius: 1.75rem;
+        padding: 2rem;
+    }
+    .bioLogoImg {
+        border-radius: 4vw;
+        width: 6vw;
+        
+    }
+    #bioP {
+        font-size: 1.2rem;
+        font-weight: 300;
+        margin-inline-start: 2rem;
+        line-height: 1.5em;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #personalIntroDiv2 {
+        width: 65vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background: rgba(255, 255, 255, 0.76);
+        height: 32vh;
+        border-radius: 1.75rem;
+        padding: 2rem;
+    }
+    .educationDiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 5px solid rgb(191, 15, 22);
+        border-radius: 1rem;
+        margin-left: 1rem;
+    }
+    .educationInnerDiv {
+        padding: 1rem;
+    }
+    .schoolLogoImg {
+        border-radius: 1vw;
+        width: 3vw;
+        margin-top: 1rem;
+    }
+    .universityP {
+        font-size: 1.2rem;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 0;
+    }
+    #personalIntroDiv3 {
+        width: 65vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background: rgba(255, 255, 255, 0.76);
+        height: 32vh;
+        border-radius: 1.75rem;
+        padding: 2rem;
+    }
+</style>
 </html>
