@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Harold Ye's Site</title>
+    <link rel="icon" type="image/x-icon" href="./img/flag3.jpg">
+</head>
+<body>
+<div id="main">
+    <div id="photoDiv">
+        <div id="barDiv">
+            <div id="logoDiv">
+                <img id="logoImg" src="./img/flag3.jpg"/>
+                <p id="siteNoteP">Harold Ye's Site</p>
+            </div>
+            <div id="barOptionContainerDiv">
+                <div class="barOptionDiv" onclick="window.location.href='index.html'">Home</div>
+                <div class="barOptionDiv" onclick="window.location.href='course.html'">Courses</div>
+                <div class="barOptionDiv" onclick="window.location.href='hobby.html'">Hobbies</div>
+            </div>
+        </div>
+
+        <p class="headingsP">Interests</p>
+        <div class="personalIntroDivs">
+                <div class="interestDiv">
+                    <img class="interestLogoImg" src="./interests/book.png" />
+                    <div class="interestInnerDiv">
+                        <p class="interestTitleP">Read Books</p>
+                        <p class="interestInfoP">
+                            I love to read books. Classical, novels, fictions, loves, political, many types of books.
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="interestDiv">
+                    <img class="interestLogoImg" src="./interests/camera.png" />
+                    <div class="interestInnerDiv">
+                        <p class="interestTitleP">Photograph</p>
+                        <p class="interestInfoP">I have a Sony A7M2 Camera and a Tamron 28-75mm Lens. I enjoy the process of recording beauty and share the serendipity.</p>
+                    </div>
+                </div>
+    
+                <div class="interestDiv">
+                    <img class="interestLogoImg" src="./interests/game.png" />
+                    <div class="interestInnerDiv">
+                        <p class="interestTitleP">Gaming</p>
+                        <p class="interestInfoP">I play lots of games. For example, Arknights, CSGO, League of Legends, Terraria, etc.</p>
+                    </div>
+                </div>
+
+        </div>
+
+        <div class="personalIntroDivs">
+
+            <div class="interestDiv">
+                <img class="interestLogoImg" src="./interests/guitar.png" />
+                <div class="interestInnerDiv">
+                    <p class="interestTitleP">Classical Guitar</p>
+                    <p class="interestInfoP">I can play guitar very well, I have a 9th level (max 10) certificate for playing classical guitar in China. I also got one national reward for playing guitar.</p>
+                </div>
+            </div>
+        
+            <div class="interestDiv">
+                <img class="interestLogoImg" src="./interests/music.png" />
+                <div class="interestInnerDiv">
+                    <p class="interestTitleP">Music</p>
+                    <p class="interestInfoP">I love to listen music. Pop, 古风, Japanese, Anime Music, etc.</p>
+                </div>
+            </div>
+
+            <div class="interestDiv">
+                <img class="interestLogoImg" src="./interests/travel.png" />
+                <div class="interestInnerDiv">
+                    <p class="interestTitleP">Traveling</p>
+                    <p class="interestInfoP">Traveling around the world has always been one of my dreams. There are lots of places (e.g., Hawaii, Hong Kong, Chicago, Beijing, etc.)
+                        I have been to. I plan to leave more footprints on this planet.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="personalIntroDivs">
+
+            <div class="interestDiv">
+                <img class="interestLogoImg" src="./interests/write.png" />
+                <div class="interestInnerDiv">
+                    <p class="interestTitleP">Writing</p>
+                    <p class="interestInfoP">Creating virtual worlds, plots, characters, and countries. Making them intertwined. Be creative.</p>
+                </div>
+            </div>
+        
+            <div class="interestDiv">
+                <img class="interestLogoImg" src="./interests/coding.png" />
+                <div class="interestInnerDiv">
+                    <p class="interestTitleP">Coding</p>
+                    <p class="interestInfoP">My majors are what I love: computer and data</p>
+                </div>
+            </div>
+
+            <div class="interestDiv">
+                <img class="interestLogoImg" src="./interests/otaku.png" />
+                <div class="interestInnerDiv">
+                    <p class="interestTitleP">Anime</p>
+                    <p class="interestInfoP">Is it true that most of the Chinese students watch anime? (I know the answer for that)
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+        
+</div>
+
+</body>
+
+<style>
+    body {
+        padding: 0;
+        margin: 0;
+    }
+    #main {
+        display: block;
+    }
+    #photoDiv {
+        display:flex;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        height: 150vh;
+        background-size: cover;
+        position: relative;
+        background-attachment: fixed;
+        background-position: center 0;
+        background-repeat: no-repeat;
+        background-image: url("./img/DSC07440.jpg");
+        border-bottom: 2px solid #cccccc;
+        flex-direction: column;
+        
+    }
+    #barDiv {
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+        flex-direction: row;
+        background: rgba(0, 0, 0, 0.25) ;
+        width: 100%;
+        height: 2.5rem;
+        color: #FFFFFF;
+        padding: 1rem;
+        position: fixed;
+        top: 0px;
+    }
+    #logoDiv {
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        flex-direction: row;
+        cursor: default;
+        margin-left: 1.25rem;
+    }
+    #logoImg {
+        display: block;
+        width: 50px;
+        max-width: 100%;
+    }
+    #barOptionContainerDiv {
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .barOptionDiv {
+        padding: 1.75rem;
+        transition-duration: 0.55s;
+    }
+    .barOptionDiv:hover {
+        padding: 1.75rem;
+        background-color: rgba(51, 195, 255, 0.36);
+        cursor: pointer;
+    }
+    #siteNoteP {
+        font-size: 1.4rem;
+        font-weight: 300;
+        margin-inline-start: 0.86rem;
+    }
+    .headingsP {
+        font-size: 2.75rem;
+        color: #fbfbfb;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .interestDiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 5px solid rgb(191, 15, 22);
+        border-radius: 1rem;
+        margin-left: 1rem;
+        width: 20vw;
+        height: 32vh;
+    }
+    .interestInnerDiv {
+        padding: 1rem;
+    }
+    .interestLogoImg {
+        border-radius: 1vw;
+        width: 3vw;
+        margin-top: 1rem;
+    }
+    .interestTitleP {
+        font-size: 1.25rem;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .smallIcon {
+        width: 18px;
+    }
+    .personalIntroDivs {
+        width: 65vw;
+        display: flex;
+        flex-direction: row;
+        background: rgba(255, 255, 255, 0.76);
+        
+        padding: 2rem;
+        overflow: auto;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+</html>

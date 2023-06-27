@@ -12,6 +12,11 @@
                 <img id="logoImg" src="./img/flag3.jpg"/>
                 <p id="siteNoteP">Harold Ye's Site</p>
             </div>
+            <div id="barOptionContainerDiv">
+                <div class="barOptionDiv" onclick="window.location.href='index.html'">Home</div>
+                <div class="barOptionDiv" onclick="window.location.href='course.html'">Courses</div>
+                <div class="barOptionDiv" onclick="window.location.href='hobby.html'">Hobbies</div>
+            </div>
         </div>
         <div id="welcomeTextDiv">
             <p class="welcomeText">
@@ -21,9 +26,18 @@
                 你好，我是Harold！
             </p>
             <div id="welcomeTextDivSub1">
-                <button class="welcomeButton" onclick="window.open('https://github.com/Harold-y/Harold-y.github.io/blob/main/resources/Yixuan%20Ye%20FD7.pdf', '_blank')" type="button">Resume</button>
-                <button class="welcomeButton" onclick="window.open('https://www.linkedin.com/in/yixuan-ye-4883391b4/', '_blank')" type="button">LinkedIn</button>
-                <button class="welcomeButton" onclick="window.open('https://github.com/Harold-y', '_blank')" type="button">GitHub</button>
+                <button class="welcomeButton" onclick="window.open('https://github.com/Harold-y/Harold-y.github.io/blob/main/resources/Yixuan%20Ye%20FD7.pdf', '_blank')" type="button">
+                    <img class="smallIcon" src="./img/resume.png"/>
+                    Resume
+                </button>
+                <button class="welcomeButton" onclick="window.open('https://www.linkedin.com/in/yixuan-ye-4883391b4/', '_blank')" type="button">
+                    <img class="smallIcon" src="./img/linkedin.png"/>
+                    LinkedIn
+                </button>
+                <button class="welcomeButton" onclick="window.open('https://github.com/Harold-y', '_blank')" type="button">
+                    <img class="smallIcon" src="./img/github.png"/>
+                    GitHub
+                </button>
             </div>
         </div>
     </div>
@@ -57,7 +71,7 @@
             </div>
         </div>
         <p class="headingsP">Skills</p>
-        <div id="personalIntroDiv3">
+        <div id="personalIntroDiv3" class="personalIntroDivs">
             <div>
                 <img class="skillIcon" src="./skills/java.png" />
                 <img class="skillIcon" src="./skills/python.png" />
@@ -95,7 +109,7 @@
         </div>
 
         <p class="headingsP">Experiences</p>
-        <div id="personalIntroDiv4">
+        <div class="personalIntroDivs">
             <div class="expDiv">
                 <img class="expImg" src="./img/Dell_logo_2016.svg.png" />
                 <div class="expInnerDiv">
@@ -146,7 +160,7 @@
             <p>For full list of experiences, access <a href="./resources/Yixuan Ye FD7.pdf" target=”_blank”>my resume</a></p>
         </div>
         <p class="headingsP">Projects</p>
-        <div id="personalIntroDiv5">
+        <div class="personalIntroDivs">
             <div class="expDiv">
                 <img class="expImg" src="https://github.com/Harold-y/shareMe/blob/main/shareMeUser/src/assets/logo2.png?raw=true" />
                 <div class="expInnerDiv">
@@ -178,31 +192,146 @@
                     </p>
                     <p class="expTitleP">Full Stack Developer, Designer</p>
                     <p class="expLocP">
-                        Photoly is a fabulous picture host application
+                        Photoly is a fabulous picture host application.
                     </p>
                 </div>
             </div>
 
             <div class="expDiv">
-                <img class="expImg" src="https://github.com/Harold-y/shareMe/blob/main/shareMeUser/src/assets/logo2.png?raw=true" />
+                <img class="expImg" src="https://user-images.githubusercontent.com/68500948/170563466-871bf4d4-ee3d-41f4-bbb2-356ac3ce716b.png" />
                 <div class="expInnerDiv">
-                    <p class="expNameP">ShareMe
-                        <a href="https://github.com/Harold-y/shareMe", target="_blank">
+                    <p class="expNameP">EchoQ
+                        <a href="https://github.com/WiscWebGroup/echoq", target="_blank">
                             <img src="./img/link.png" class="smallIcon"/>
                         </a>
-                        <a href="http://share.cheng-bing.top/", target="_blank">
+                        <a href="http://echoq.cheng-bing.top/", target="_blank">
+                            <img src="./img/link.png" class="smallIcon"/>
+                        </a>
+                    </p>
+                    <p class="expTitleP">Backend & Database Developer</p>
+                    <p class="expLocP">
+                        EchoQ is a beautiful anonymous question box.
+                    </p>
+                </div>
+            </div>
+
+            <div class="expDiv">
+                <img class="expImg" src="https://user-images.githubusercontent.com/68500948/148694735-db9e68cb-ddf1-4119-8340-90e3082cd789.png" />
+                <div class="expInnerDiv">
+                    <p class="expNameP">CBR Market Platform
+                        <a href="https://github.com/Harold-y/cbrMarketPlatform_Frontend", target="_blank">
                             <img src="./img/link.png" class="smallIcon"/>
                         </a>
                     </p>
                     <p class="expTitleP">Full Stack Developer</p>
                     <p class="expLocP">
-                        ShareMe Is a light-weight platform designed to help you share your files, URLs, notes, and thoughts.
+                        CBR Market is an online e-commerce platform.
                     </p>
                 </div>
             </div>
 
-            
+            <div class="expDiv">
+                <img class="expImg" src="https://user-images.githubusercontent.com/68500948/158926405-97f1364c-0891-4eab-b394-5b4149cddedc.png" />
+                <div class="expInnerDiv">
+                    <p class="expNameP">Java Web IDE
+                        <a href="https://github.com/Harold-y/javaonlineide", target="_blank">
+                            <img src="./img/link.png" class="smallIcon"/>
+                        </a>
+                    </p>
+                    <p class="expTitleP">Full Stack Developer</p>
+                    <p class="expLocP">
+                        Java Web IDE is an online editor and executor for Java developers, supporting writing normal Java, Maven, and Spring programs 
+                    </p>
+                </div>
+            </div>
+            <p>For other projects, access <a href="https://github.com/Harold-y?tab=repositories" target=”_blank”>GitHub</a></p>
+        </div>
 
+        <p class="headingsP">Honors</p>
+        <div class="personalIntroDivs">
+            <div class="expDiv">
+                <img class="expImg" src="./img/uwn.svg.png" />
+                <div class="expInnerDiv">
+                    <p class="expNameP">Dean's List
+                    </p>
+                    <p class="expTitleP">Sep, 2020 tp Present</p>
+                </div>
+            </div>
+        </div>
+
+        <p class="headingsP">Certificates</p>
+        <div class="personalIntroDivs">
+            <div class="expDiv">
+                <img class="expImg" src="./img/cousera.png" />
+                <div class="expInnerDiv">
+                    <p class="expNameP">Neural Networks and Deep Learning
+                        <a href="https://www.coursera.org/account/accomplishments/verify/CMAFWPAM996C", target="_blank">
+                            <img src="./img/link.png" class="smallIcon"/>
+                        </a>
+                    </p>
+                    <p class="expTitleP">CMAFWPAM996C</p>
+                </div>
+            </div>
+            
+            <div class="expDiv">
+                <img class="expImg" src="./img/cousera.png" />
+                <div class="expInnerDiv">
+                    <p class="expNameP">Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization
+                        <a href="https://www.coursera.org/account/accomplishments/verify/YLMT5ECC8UPA", target="_blank">
+                            <img src="./img/link.png" class="smallIcon"/>
+                        </a>
+                    </p>
+                    <p class="expTitleP">YLMT5ECC8UPA</p>
+                </div>
+            </div>
+
+            <div class="expDiv">
+                <img class="expImg" src="./img/cousera.png" />
+                <div class="expInnerDiv">
+                    <p class="expNameP">Convolutional Neural Networks
+                        <a href="https://www.coursera.org/account/accomplishments/verify/ZLTATTZPW257", target="_blank">
+                            <img src="./img/link.png" class="smallIcon"/>
+                        </a>
+                    </p>
+                    <p class="expTitleP">ZLTATTZPW257</p>
+                </div>
+            </div>
+
+            <div class="expDiv">
+                <img class="expImg" src="./img/cousera.png" />
+                <div class="expInnerDiv">
+                    <p class="expNameP">Structuring Machine Learning Projects
+                        <a href="https://www.coursera.org/account/accomplishments/verify/DVNP5ZYW9LWN", target="_blank">
+                            <img src="./img/link.png" class="smallIcon"/>
+                        </a>
+                    </p>
+                    <p class="expTitleP">DVNP5ZYW9LWN</p>
+                </div>
+            </div>
+
+            <div class="expDiv">
+                <img class="expImg" src="./img/cousera.png" />
+                <div class="expInnerDiv">
+                    <p class="expNameP">Build Basic Generative Adversarial Networks (GANs)
+                        <a href="https://www.coursera.org/account/accomplishments/verify/EZVVXRTJUF2J", target="_blank">
+                            <img src="./img/link.png" class="smallIcon"/>
+                        </a>
+                    </p>
+                    <p class="expTitleP">EZVVXRTJUF2J</p>
+                </div>
+            </div>
+
+            <div class="expDiv">
+                <img class="expImg" src="./img/cousera.png" />
+                <div class="expInnerDiv">
+                    <p class="expNameP">Build Better Generative Adversarial Networks (GANs)
+                        <a href="https://www.coursera.org/account/accomplishments/verify/U8FR36TQLSFX", target="_blank">
+                            <img src="./img/link.png" class="smallIcon"/>
+                        </a>
+                    </p>
+                    <p class="expTitleP">U8FR36TQLSFX</p>
+                </div>
+            </div>
         </div>
     </div>
         
@@ -260,6 +389,21 @@
         width: 50px;
         max-width: 100%;
     }
+    #barOptionContainerDiv {
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .barOptionDiv {
+        padding: 1.75rem;
+        transition-duration: 0.55s;
+    }
+    .barOptionDiv:hover {
+        padding: 1.75rem;
+        background-color: rgba(51, 195, 255, 0.36);
+        cursor: pointer;
+    }
     #siteNoteP {
         font-size: 1.4rem;
         font-weight: 300;
@@ -302,13 +446,13 @@
         display:flex;
         align-items: center;
         -webkit-box-pack: center;
-        height: 400vh;
+        height: 550vh;
         background-size: cover;
         position: relative;
         background-attachment: fixed;
         background-position: center 0;
         background-repeat: no-repeat;
-        background-image: url("./img/DSC07440.jpg");
+        background-image: url("./img/DSC07899.jpg");
         flex-direction: column;
     }
     .headingsP {
@@ -371,29 +515,11 @@
         margin-top: 0;
     }
     #personalIntroDiv3 {
-        width: 65vw;
-        display: flex;
-        flex-direction: column;
         align-items: center;
-        background: rgba(255, 255, 255, 0.76);
-        border-radius: 1.75rem;
-        padding: 2rem;
-        overflow: auto;
-        justify-content: center;
     }
     .skillIcon {
         width: 4vw;
         padding: 1rem;
-    }
-    #personalIntroDiv4 {
-        width: 65vw;
-        display: flex;
-        flex-direction: column;
-        background: rgba(255, 255, 255, 0.76);
-        border-radius: 1.75rem;
-        padding: 2rem;
-        overflow: auto;
-        justify-content: center;
     }
     .expDiv {
         display: flex;
@@ -427,7 +553,7 @@
     .smallIcon {
         width: 18px;
     }
-    #personalIntroDiv5 {
+    .personalIntroDivs {
         width: 65vw;
         display: flex;
         flex-direction: column;
