@@ -25,6 +25,9 @@
             <p class="welcomeText">
                 你好，我是Harold！
             </p>
+            <p class="welcomeText">
+                こんにちわ　私は叶です
+            </p>
             <div id="welcomeTextDivSub1">
                 <button class="welcomeButton" onclick="window.open('https://github.com/Harold-y/Harold-y.github.io/blob/main/resources/Yixuan%20Ye%20FD7.pdf', '_blank')" type="button">
                     <img class="smallIcon" src="./img/resume.png"/>
@@ -47,7 +50,7 @@
             <img class="bioLogoImg" src="https://avatars.githubusercontent.com/u/68500948" />
             <p id="bioP">
                 
-                Hello! My name is Harold. Full stack developer, CS & DS undergraduate at UW-Madison, Former Dell intern, future employee; creator & member of <a href="https://github.com/WiscWebGroup">WiscWebGroup</a>. I know full-stack development, algorithms, data processing, machine learning, statistics, and computer networks. I also know a little bit about information security and computer graphics. My favorite language is Java. I also like Python and R.
+                Hello! My name is Harold. Full stack developer, CS & DS undergraduate at UW-Madison, Former Dell intern; creator & member of <a href="https://github.com/WiscWebGroup">WiscWebGroup</a>. I know full-stack development, algorithms, data processing, machine learning, statistics, and computer networks. I also know a little bit about information security and computer graphics. My favorite language is Java. I also like Python and R.
             </p>
         </div>
         <p class="headingsP">Education</p>
@@ -106,7 +109,7 @@
                 <img class="skillIcon" src="./skills/spring-cloud.png" />
                 <img class="skillIcon" src="./skills/docker.webp" />
             </div>
-            <p>For full list of skills, access <a href="./resources/Yixuan Ye FD7.pdf" target=”_blank”>my resume</a></p>
+            <p>For full list of skills, access <a href="./resources/YYE_Resume_V9.pdf" target=”_blank”>my resume</a></p>
         </div>
 
         <p class="headingsP">Experiences</p>
@@ -190,23 +193,6 @@
                     </p>
                 </div>
             </div>
-            <div class="expDiv">
-                <img class="expImg" src="./img/shareMe.png" />
-                <div class="expInnerDiv">
-                    <p class="expNameP">ShareMe
-                        <a href="https://github.com/Harold-y/shareMe", target="_blank">
-                            <img src="./img/link.png" class="smallIcon"/>
-                        </a>
-                        <a href="http://share.cheng-bing.top/", target="_blank">
-                            <img src="./img/link.png" class="smallIcon"/>
-                        </a>
-                    </p>
-                    <p class="expTitleP">Full Stack Developer</p>
-                    <p class="expLocP">
-                        ShareMe Is a light-weight platform designed to help you share your files, URLs, notes, and thoughts.
-                    </p>
-                </div>
-            </div>
 
             <div class="expDiv">
                 <img class="expImg" src="./img/photoly.png" />
@@ -227,6 +213,26 @@
             </div>
 
             <div class="expDiv">
+                <img class="expImg" src="./img/shareMe.png" />
+                <div class="expInnerDiv">
+                    <p class="expNameP">ShareMe
+                        <a href="https://github.com/Harold-y/shareMe", target="_blank">
+                            <img src="./img/link.png" class="smallIcon"/>
+                        </a>
+                        <a href="http://share.cheng-bing.top/", target="_blank">
+                            <img src="./img/link.png" class="smallIcon"/>
+                        </a>
+                    </p>
+                    <p class="expTitleP">Full Stack Developer</p>
+                    <p class="expLocP">
+                        ShareMe Is a light-weight platform designed to help you share your files, URLs, notes, and thoughts.
+                    </p>
+                </div>
+            </div>
+
+            
+
+            <div class="expDiv">
                 <img class="expImg" src="./img/echoQ.png" />
                 <div class="expInnerDiv">
                     <p class="expNameP">EchoQ
@@ -240,21 +246,6 @@
                     <p class="expTitleP">Backend & Database Developer</p>
                     <p class="expLocP">
                         EchoQ is a beautiful anonymous question box.
-                    </p>
-                </div>
-            </div>
-
-            <div class="expDiv">
-                <img class="expImg" src="./img/market.png" />
-                <div class="expInnerDiv">
-                    <p class="expNameP">CBR Market Platform
-                        <a href="https://github.com/Harold-y/cbrMarketPlatform_Frontend", target="_blank">
-                            <img src="./img/link.png" class="smallIcon"/>
-                        </a>
-                    </p>
-                    <p class="expTitleP">Full Stack Developer</p>
-                    <p class="expLocP">
-                        CBR Market is an online e-commerce platform.
                     </p>
                 </div>
             </div>
@@ -277,13 +268,31 @@
         </div>
 
         <p class="headingsP">Honors</p>
-        <div class="personalIntroDivs">
+        <div class="personalIntroDivs" id="honorContainer">
+            <div class="expDiv">
+                <img class="expImg" src="./img/uwn.svg.png" />
+                <div class="expInnerDiv">
+                    <p class="expNameP">Graduated with Distinction
+                    </p>
+                    <p class="expTitleP">Dec, 2023</p>
+                </div>
+            </div>
+
+            <div class="expDiv">
+                <img class="expImg" src="./img/uwn.svg.png" />
+                <div class="expInnerDiv">
+                    <p class="expNameP">Distinctive Scholastic Achievement
+                    </p>
+                    <p class="expTitleP">Dec, 2023</p>
+                </div>
+            </div>
+
             <div class="expDiv">
                 <img class="expImg" src="./img/uwn.svg.png" />
                 <div class="expInnerDiv">
                     <p class="expNameP">Dean's List
                     </p>
-                    <p class="expTitleP">Sep, 2020 to Present</p>
+                    <p class="expTitleP">Sep, 2020 to Dec, 2023</p>
                 </div>
             </div>
         </div>
@@ -590,6 +599,9 @@
         border-radius: 1.75rem;
         padding: 2rem;
         justify-content: center;
+    }
+    #honorContainer div {
+        margin-bottom: 1rem;
     }
 </style>
 </html>
